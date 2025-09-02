@@ -3,6 +3,12 @@
 ## Overview
 This project focuses on predicting sleep disorders in adult women using the NHANES dataset (National Health and Nutrition Examination Survey). The analysis aims to identify influential predictors of sleep trouble and to optimize classification models while minimizing false negatives, which is crucial for initial healthcare screening.
 
+**Course Project:** University project completed in a team of 5 members.
+
+### Additional Files
+- **Code:** `SleepClassification.R` — contains the full analysis and modeling code.  
+- **Editing Rules:** `reglas_Edicion_nhanes.txt` — contains rules applied to clean and preprocess the dataset.
+
 ## Dataset
 - **Source:** NHANES dataset available in R.
 - **Population:** Adult women (ages 21–79) surveyed in 2011–2012.
