@@ -1,0 +1,40 @@
+# numerical rules
+Age >= 0
+Age <= 80
+HHIncomeMid >= 0
+HHIncomeMid <= 100000
+Poverty >= 0
+Poverty <= 5
+Weight > 0
+Weight <= 300
+Height > 0
+Height <= 252
+Pulse >= 30
+Pulse <= 220
+BPSysAve >= 50
+BPSysAve <= 230
+BPDiaAve >= 10
+BPDiaAve <= 120 
+DirectChol >= 0
+TotChol >= 0
+UrineVol1 >= 0
+UrineVol1 <= 1000
+UrineFlow1 >= 0
+UrineFlow1 <= 20
+SleepHrsNight >= 0
+SleepHrsNight <= 24
+# categorical rules
+Education %in% c("8th Grade","9 - 11th Grade","High School","Some College","College Grad")
+MaritalStatus %in% c("Divorced","LivePartner","Married","NeverMarried","Separated","Widowed")
+HomeOwn %in% c("Own","Rent","Other")
+HomeRooms %in% c( "0_4_Rooms","5_8_Rooms","8_plus_Rooms")
+Work %in% c("Looking","NotWorking","Working")
+Diabetes %in% c("No","Yes")
+HealthGen %in% c("Excellent","Vgood","Good","Fair","Poor")
+LittleInterest %in% c("None","Several","Most")
+Depressed %in% c("None","Several","Most")
+SleepTrouble %in% c("No","Yes")
+PhysActive %in% c("No","Yes")
+Alcohol12PlusYr %in% c("No","Yes")
+Smoke100 %in% c("No","Yes")
+
